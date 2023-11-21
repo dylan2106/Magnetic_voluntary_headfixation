@@ -15,7 +15,8 @@ files were created in inventor 2019
 \bearing_switch
 this directory contains the firmeware for the arduino running the bearing detection circuit
 electronics\tri_mount_adj_2
-this device sences the bearing balls in teh kinematic bearings and sends the appropriate output as BNCs TTL that are routed to teh scanimage control system and the behaviural control 
+
+this device sences the bearing balls in teh kinematic bearings and sends the appropriate output as BNCs TTL that are routed to the scanimage control system and the behaviural control 
 
 \pc_software
 this directory runs the PC code for the flow control of training of cvoluntary head fixation and some behavioural experiments.
