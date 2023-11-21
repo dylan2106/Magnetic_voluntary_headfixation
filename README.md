@@ -11,6 +11,19 @@ This directory is the pack-and-go CAD directory for the main fixation hardware.
 The file to open in inventor is "Assembly2.iam"
 files were created in inventor 2019
 
+# software
+\bearing_switch
+this directory contains the firmeware for the arduino running the bearing detection circuit
+electronics\tri_mount_adj_2
+this device sences the bearing balls in teh kinematic bearings and sends the appropriate output as BNCs TTL that are routed to teh scanimage control system and the behaviural control 
+
+\pc_software
+this directory runs the PC code for the flow control of training of cvoluntary head fixation and some behavioural experiments.
+it runs in MATLAB
+and is started using controllerGUI.m
+the sub programs that are loaded via teh GUI are prefaced "pFSM"
+pFSM_train_poke.m - is the main program that will train the animal to achieve voluntary head fixation
+
 
 
 
